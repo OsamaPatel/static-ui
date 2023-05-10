@@ -97,7 +97,7 @@
                                             <a class="rs-menu-toggle">
                                                 <ul>
                                                     <li>
-                                                        <a id="nav-expander" class="humburger nav-expander" href="#">
+                                                        <a id="nav-expander" class="humburger nav-expander" href="#" onclick="jumpToTop()">
                                                             <span class="dot1"></span>
                                                             <span class="dot2"></span>
                                                             <span class="dot3"></span>
@@ -932,6 +932,11 @@
         <script src="assets/js/jQuery-plugin-progressbar.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
+        <script>
+            function jumpToTop(){
+                $('html, body').animate({ scrollTop: 0 }, 'fast');
+            }
+        </script>
     </body>
 
 <!-- Mirrored from rstheme.com/products/html/reobiz/index13.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 May 2022 06:31:56 GMT -->
